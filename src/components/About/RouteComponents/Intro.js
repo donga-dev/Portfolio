@@ -12,13 +12,15 @@ const Intro = () => {
                     </div>
                     <div className="about-intro__description">
                         <p data-aos='fade-right'>I am <span>Siddharth Donga.</span></p>
-                        <p data-aos='fade-right' data-aos-delay='200'>With over 3.4+ years of experience, I specialize as a Full-Stack Web Developer, focusing strongly on front-end development.</p>
-                        <p data-aos='fade-right' data-aos-delay='400'>Proficient in React.js, Redux, Next.js, and Axios, I craft intuitive user interfaces while staying updated on the latest front-end trends.</p>
-                        <p data-aos='fade-right' data-aos-delay='600'>I excel in backend frameworks like Node.js, Express.js, and Nest.js, with a solid understanding of databases including MongoDB, MySQL, and PostgreSQL.</p>
-                        <p data-aos='fade-right' data-aos-delay='800'>Skilled in cloud platforms like AWS and Azure, I implement CI/CD pipelines, deploy AWS Lambda functions, and work with Docker for containerization.</p>
-                        <p data-aos='fade-right' data-aos-delay='1000'>Driven by curiosity, I constantly expand my skill set to deliver innovative and scalable web solutions. Always open to explore FREELANCE opportunities!</p>
+                        <p data-aos='fade-right' data-aos-delay='200'>A passionate Full-Stack Web Developer with 4.4+ years of hands-on experience building scalable, secure, and user-centric applications.</p>
+                        <p data-aos='fade-right' data-aos-delay='400'>I specialize in front-end frameworks like React.js, Redux, Next.js, and TypeScript, crafting clean, responsive, and accessible interfaces.</p>
+                        <p data-aos='fade-right' data-aos-delay='600'>On the backend, I work extensively with Node.js, Express.js, and NestJS, building RESTful APIs and microservices with robust database integration using MongoDB, MySQL, and PostgreSQL.</p>
+                        <p data-aos='fade-right' data-aos-delay='800'>I have deployed full-stack apps across cloud platforms like AWS and Azure—leveraging EC2, S3, Lambda, Lightsail, Docker, and CDK for scalable cloud-native solutions.</p>
+                        <p data-aos='fade-right' data-aos-delay='1000'>Experienced in integrating third-party APIs (Stripe, Xero, Basiq, Akahu, QuickBooks, etc.), setting up CI/CD pipelines, and contributing to high-impact production projects for clients across the US, Australia, and New Zealand.</p>
+                        <p data-aos='fade-right' data-aos-delay='1200'>I continuously explore emerging technologies and am always open to freelance or remote collaboration opportunities!</p>
                         <div className="about-intro__emoji">:&nbsp;)</div>
                     </div>
+
 
 
                 </div>

@@ -16,7 +16,7 @@ export const config = {
           description:
             "Web app for New Zealand's healthcare sector, streamlining hospital shift scheduling and tenant management. Built with React.js, Node.js, TypeScript, and PostgreSQL.",
           animationDelay: '500',
-          buttonLink: 'https://web-dem.rooster.nz/',
+          buttonLink: 'https://web.rooster.nz/',
           buttonText: 'CHECK OUT',
         },
         {
@@ -44,27 +44,39 @@ export const config = {
           buttonText: 'CHECK OUT',
         },
         {
-          heading: 'Under Construction',
-          description: '</>',
+          heading: 'Wordibly – Transcription Platform',
+          description: 'Built a US-based transcription platform from scratch. Implemented role-based access for Editors, Reviewers, and Owners; integrated audio/video upload and editing tools. Developed secure payment flow with Stripe and connected accounting via QuickBooks. Tech stack: React.js, Node.js, TypeScript, MySQL, AWS.',
           animationDelay: '2100',
-          buttonText: '',
-        },
+          buttonText: 'Visit',
+          url: 'https://app.wordibly.com/',
+        }
+
       ],
     }
     ,
     internships: {
       internship: [
         {
-          companyName: 'Intacting PVT LTD',
+          companyName: 'Freelancing',
           role: 'Full-Stack Web Developer (Remote)',
           introText: '',
-          duration: '10/2023 - Present',
+          duration: '03/2025 - Present',
+          keyPointOne: 'Worked on a U.S.-based transcription platform (Wordibly) using React.js, TypeScript, Node.js, and AWS.',
+          keyPointTwo: 'Built responsive UI, backend APIs, and integrated cloud services for secure transcription workflows.',
+          keyPointThree: 'Collaborated with clients to deliver scalable, high-performance web solutions.',
+          keyPointFour: 'Handled end-to-end development and deployment with a focus on quality and security.',
+          offsetValue: '0',
+        },
+        {
+          companyName: 'Proaxiom',
+          role: 'Full-Stack Web Developer (Remote)',
+          introText: '',
+          duration: '10/2023 - 02/2025',
           keyPointOne: 'Developed a robust SQL sanitizer function to prevent SQL injection and implemented solutions using AWS Lambda and Azure App Service.',
           keyPointTwo: 'Leveraged the MERN stack (MySQL, Express.js, React.js, Node.js) alongside Docker, EC2, ECS, and ECR to deploy scalable web applications.',
-          keyPointThree: 'Actively contributed to code reviews, debugging, performance optimization, and cloud deployments using AWS and Azure.',
-          keyPointFour: 'Consistently met project requirements with a focus on maintainability and scalability.',
-
-          offsetValue: '0',
+          keyPointThree: 'Set up automated CI/CD pipelines using AWS CodeBuild and GitHub Actions.',
+          keyPointFour: 'Contributed to code reviews, debugging, performance optimization, and deployment across AWS and Azure environments.',
+          offsetValue: '-300',
         },
         {
           companyName: 'Skyline Infosys',
@@ -75,21 +87,21 @@ export const config = {
           keyPointTwo: 'Built APIs and integrated third-party services, adhering to industry standards and best practices.',
           keyPointThree: 'Participated in code reviews, providing constructive feedback to enhance code quality.',
           keyPointFour: 'Focused on delivering high-performance and maintainable web applications.',
-          offsetValue: '-500',
+          offsetValue: '-600',
         },
         {
           companyName: 'BVM Infotech',
           role: 'MERN Stack Developer',
           introText: '',
-          duration: '07/2021 - 07/2022',
+          duration: '04/2021 - 07/2022',
           keyPointOne: 'Implemented various authentication and authorization mechanisms to secure web applications.',
           keyPointTwo: 'Collaborated with designers to create attractive, user-friendly interfaces with a focus on accessibility.',
           keyPointThree: 'Stayed updated with web development trends, applying them to enhance the development process.',
           keyPointFour: 'Developed solutions that ensure performance and scalability.',
-          offsetValue: '-1000',
-        },
-
+          offsetValue: '-900',
+        }
       ],
+
     },
 
   },

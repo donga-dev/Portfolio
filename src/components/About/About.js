@@ -119,7 +119,7 @@ const About = () => {
                 </h2>
                 <p>
                   I am <span>Siddharth Donga.</span> <br /> Highly passoinate
-                  full-stack Developer with more than 3.5+ years of experience.
+                  full-stack Developer with more than 4.4+ years of experience.
                 </p>
                 <p className="about__read-more">Read more...</p>
               </Link>
@@ -193,8 +193,8 @@ const About = () => {
                   E<span>xperience</span>
                 </h2>
                 <p>
-                  <span>3.5+ years of experience.</span>
-                  <br />I have more than 3.5+ years of experience as a Full-Stack Web Developer, specializing in building highly responsive front-end applications using React.js and Next.js, along with robust back-end systems using Node.js, Express.js, and Nest.js.
+                  <span>4.4+ years of experience.</span>
+                  <br />I have more than 4.4+ years of experience as a Full-Stack Web Developer, specializing in building highly responsive front-end applications using React.js and Next.js, along with robust back-end systems using Node.js, Express.js, and Nest.js.
                 </p>
                 <p className="about__read-more">Read more...</p>
               </Link>

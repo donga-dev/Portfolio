@@ -129,7 +129,7 @@ const Hero = () => {
             >
               <p>
                 I'm a passionate and responsible{' '}
-                <span>full-stack developer</span>, with more than 3.5+ years of
+                <span>full-stack developer</span>, with more than 4.4+ years of
                 experience. Skilled in developing highly responsive websites and
                 mobile apps with elegant and efficient code.
               </p>

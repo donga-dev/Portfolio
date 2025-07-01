@@ -140,146 +140,74 @@ const Skill = () => {
           </div>
           <div className="skill__inner-container">
             <div className="skill__info">
-              {/* <div className="skill__skill-tags">
-                <span>HTML</span>&nbsp;&nbsp;
-                <span>PUG</span>&nbsp;&nbsp;
-                <span>CSS</span>&nbsp;&nbsp;
-                <span>SASS</span>&nbsp;&nbsp;
-                <span>Javascript</span>&nbsp;&nbsp;
-                <span>JQuery</span>
-              </div> */}
               <div className="skill__details-container">
+
                 <div className="skill__details">
                   <h4>HTML / CSS</h4>
                   <ul>
-                    <li>
-                      <span>HTML5, CSS3</span>
-                    </li>
-                    <li>
-                      <span>
-                        <b>Preprocessors:</b>  SASS
-                      </span>
-                    </li>
-
-                  </ul>
-                </div>
-                <div className="skill__details">
-                  <h4>JavaScript</h4>
-                  <ul>
-                    <li>
-                      <span>
-                        <b>Frameworks & Libraries:</b> React.js, Next.js
-                      </span>
-                    </li>
-                    <li>
-                      <span>ES5/ES6</span>
-                    </li>
-                    <li>
-                      <span>TypeScript</span>
-                    </li>
-
-
-                  </ul>
-                </div>
-                <div className="skill__details">
-                  <h4>Version Control Systems</h4>
-                  <ul>
-                    <li>
-                      <span>GIT</span>
-                    </li>
-
+                    <li><span>HTML5, CSS3</span></li>
+                    <li><span><b>Preprocessors:</b> SASS</span></li>
+                    <li><span><b>Frameworks:</b> Bootstrap, Tailwind CSS</span></li>
                   </ul>
                 </div>
 
                 <div className="skill__details">
-                  <h4>Server Side</h4>
+                  <h4>JavaScript & TypeScript</h4>
                   <ul>
-                    <li>
-                      <span>Node.js</span>
-                    </li>
-                    <li>
-                      <span>Express.js</span>
-                    </li>
-                    <li>
-                      <span>Nest.js</span>
-                    </li>
-                    <li>
-                      <span>MongoDB</span>
-                    </li>
-                    <li>
-                      <span>MySQL</span>
-                    </li>
-                    <li>
-                      <span>PostgreSQL</span>
-                    </li>
+                    <li><span><b>Frameworks & Libraries:</b> React.js, Redux, Next.js</span></li>
+                    <li><span>ES6+, TypeScript</span></li>
+                    <li><span>Axios, Formik</span></li>
                   </ul>
                 </div>
+
+                <div className="skill__details">
+                  <h4>Version Control & Tools</h4>
+                  <ul>
+                    <li><span>Git, GitHub</span></li>
+                    <li><span>Jira, Atlassian Suite</span></li>
+                    <li><span>Swagger</span></li>
+                  </ul>
+                </div>
+
+                <div className="skill__details">
+                  <h4>Backend & Databases</h4>
+                  <ul>
+                    <li><span>Node.js, Express.js, NestJS</span></li>
+                    <li><span>MySQL, PostgreSQL, MongoDB</span></li>
+                    <li><span>TypeORM, Prisma, Sequelize</span></li>
+                  </ul>
+                </div>
+
                 <div className="skill__details">
                   <h4>Cloud & DevOps</h4>
                   <ul>
-                    <li>
-                      <span>AWS</span>
-                    </li>
-                    <li>
-                      <span>Azure</span>
-                    </li>
-                    <li>
-                      <span>CI/CD</span>
-                    </li>
-                    <li>
-                      <span>Docker</span>
-                    </li>
-                    <li>
-                      <span>AWS Lambda</span>
-                    </li>
-                    <li>
-                      <span>EC2</span>
-                    </li>
-                    <li>
-                      <span>ECS</span>
-                    </li>
-                    <li>
-                      <span>ECR</span>
-                    </li>
+                    <li><span>AWS (EC2, S3, Lambda, Lightsail, ECR, ECS, RDS)</span></li>
+                    <li><span>AWS CDK, AWS SDK</span></li>
+                    <li><span>Azure App Service</span></li>
+                    <li><span>CI/CD (GitHub Actions, AWS CodeBuild)</span></li>
+                    <li><span>Docker</span></li>
                   </ul>
                 </div>
+
                 <div className="skill__details">
                   <h4>Third-Party Integrations</h4>
                   <ul>
-                    <li>
-                      <span>Basiq</span>
-                    </li>
-                    <li>
-                      <span>Akahu</span>
-                    </li>
-                    <li>
-                      <span>MailChimp</span>
-                    </li>
-                    <li>
-                      <span>HubSpot</span>
-                    </li>
-                    <li>
-                      <span>Zero</span>
-                    </li>
-
-                    <li>
-                      <span>Stripe</span>
-                    </li>
-
-                    <li>
-                      <span>Plaid</span>
-                    </li>
-                    <li>
-                      <span>Swagger</span>
-                    </li>
+                    <li><span>Stripe, Plaid, Basiq, Akahu</span></li>
+                    <li><span>Xero, QuickBooks</span></li>
+                    <li><span>MailChimp, SendGrid</span></li>
+                    <li><span>HubSpot, Zendesk</span></li>
+                    <li><span>Sanity, UIPath</span></li>
                   </ul>
                 </div>
+
               </div>
             </div>
+
             <div className="skill__cloud">
               <div className="tagcloud"></div>
             </div>
           </div>
+
         </div>
       </div>
     </>
